@@ -103,10 +103,16 @@ p {
   margin-left: 30px;
 }
 
+.logo {
+  width: 50px;
+}
+
 .top-arrow {
-  display: block;
-  text-align: right;
-  padding: 10px;
+  position: fixed;
+  right: 23px;
+  bottom: 23px;
+  padding: 20px;
+  margin-bottom: 0;
   border-radius: 50px;
   background: #c4c3c9;
   color: var(--heading-color);
