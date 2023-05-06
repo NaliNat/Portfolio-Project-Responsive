@@ -3,6 +3,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #f9f7fe;
+  --heading-color: #232149;
 }
 
 body {
@@ -74,6 +75,73 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.net {
+  font-size: 40px;
+  padding: 20px;
+  margin: 0 20px;
+  color: var(--branding-color);
+  margin-bottom: 40px;
+  transition: all 200ms ease-in-out;
+}
+
+.contact-icons {
+  width: 100px;
+}
+
+.contact-container {
+  padding-top: 40px;
+  background: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+.home-icon {
+  font-size: 25px;
+  color: darkred;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.top-arrow {
+  display: block;
+  text-align: right;
+  padding: 10px;
+  border-radius: 50px;
+  background: #c4c3c9;
+  color: var(--heading-color);
+}
+
+#src-code {
+  color: #7a739b;
+}
+
+#contact {
+  font-family: var(--default-font-family);
+  color: var(--heading-color);
+  font-style: italic;
+  font-size: 50px;
+}
+
+#mail {
+  color: var(--heading-color);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  font-size: 19px;
+}
+
+.net:hover {
+  color: var(--secondary-color);
+  background: var(--branding-color);
+  border-radius: 50px;
+}
+
+#mail:hover {
+  color: var(--branding-color);
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
