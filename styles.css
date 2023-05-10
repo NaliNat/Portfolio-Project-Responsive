@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #c53c91;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #f9f7fe;
@@ -137,6 +137,10 @@ p {
   font-family: var(--default-font-family);
   margin: 20px 0 0;
   line-height: 1.5;
+}
+
+.active {
+  color: var(--branding-color) !important;
 }
 
 #src-code {
